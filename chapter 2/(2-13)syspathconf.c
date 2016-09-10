@@ -30,7 +30,7 @@ int main(int argc, char* argv[]){
 #ifdef _PC_MAX_CANON
     pr_pathconf("MAX_CANON =", argv[1], _PC_MAX_CANON);
 #else
-    printf("no symbol for _PC_MAX_CANON\N");
+    printf("no symbol for _PC_MAX_CANON\n");
 #endif
     exit(0);
 }
